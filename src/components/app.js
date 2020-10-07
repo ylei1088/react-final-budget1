@@ -15,12 +15,12 @@ function App() {
     <BrowserRouter>
       <Header />
       <Switch>
-        <Route path="/">
-          <HomePage />
-        </Route>
-
         <Route path="/income">
           <IncomePage />
+        </Route>
+
+        <Route path="/">
+          <HomePage />
         </Route>
 
         <Route path="/category">
