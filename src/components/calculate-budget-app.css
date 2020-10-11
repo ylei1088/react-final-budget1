@@ -1,0 +1,21 @@
+.monthly__salary {
+  display: block;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+
+.salary__input {
+  width: 200px;
+  height: 50px;
+  justify-content: center;
+  list-style: none;
+  margin: 1rem;
+}
+
+.button__text {
+  justify-content: center;
+  list-style: none;
+  color: red;
+}

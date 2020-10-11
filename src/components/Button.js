@@ -1,11 +1,13 @@
 import React, { Component } from "react";
+import "./button.css"
 
 class Button extends Component {
   render() {
     return (
+      <div className="button">
       <button {...this.props}>
-        <i className="large calculator icon"></i>
       </button>
+      </div>
     );
   }
 }

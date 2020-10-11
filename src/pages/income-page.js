@@ -1,8 +1,8 @@
 import React from "react";
-import CalculateBudget from "../components/calculate-budget";
+import CalculateBudgetApp from "../components/calculate-budget-app";
 
 function IncomePage() {
-  return <CalculateBudget></CalculateBudget>;
+  return <CalculateBudgetApp></CalculateBudgetApp>;
 }
 
 export default IncomePage;

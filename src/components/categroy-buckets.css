@@ -1,0 +1,15 @@
+.category__bucket {
+  padding-top: 10px;
+}
+
+.category__bucket--title {
+  font-size: 3em;
+  color: #d46248;
+  font-weight: 100;
+}
+
+.category__bucket--number {
+  font-size: 2em;
+  color: #2481be;
+  font-weight: 100;
+}

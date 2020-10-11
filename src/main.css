@@ -1,25 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grandstander:wght@300&display=swap");
 
-* {
+/* * {
   font-family: inherit;
   box-sizing: inherit;
 }
 *::before,
 *::after {
   box-sizing: inherit;
-}
+} */
 
 html {
   font-size: 22px;
 }
 
 body {
-  /* background-color: rgb(49, 35, 110); */
-  background: white;
   color: black;
   max-width: 800px;
   margin: 0 auto;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Grandstander", cursive;
   text-align: center;
 }
 
@@ -29,7 +27,10 @@ a {
 
 header {
   margin: 0 0 2rem 0;
+  color: beige;
   text-align: center;
+  background: url("./images/bg.jpg");
+  padding: 2rem;
 }
 
 footer {
@@ -60,15 +61,20 @@ a {
 
 a:visited {
   background-color: transparent;
-  color: rgb(104, 164, 253);
-}
-
-a:focus {
-  background-color: transparent;
-  color: darkblue;
+  color: wheat;
 }
 
 a:hover {
   background-color: transparent;
-  color: rgb(96, 96, 255);
+  color: yellow;
+}
+
+#click-button,
+#speak-button {
+  display: block;
+  margin: 1rem 0;
+}
+
+.weclome-message {
+  font-size: 1.25em;
 }

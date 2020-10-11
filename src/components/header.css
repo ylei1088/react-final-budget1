@@ -1,0 +1,13 @@
+.header {
+  margin: 0 0 2rem 0;
+  text-align: center;
+}
+
+.header-logo {
+  font-size: 2rem;
+}
+
+.header__nav {
+  font-size: 2rem;
+  padding: 1.5rem;
+}
